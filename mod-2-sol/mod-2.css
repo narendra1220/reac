@@ -13,8 +13,13 @@
 		margin-left:auto;
 		font-family: Helvertica;
 		color: white; 
+
 	}
 	.row{
 		width: 100%;
+
+	}
+	div{
+		text-align: right;
 	}
 	
