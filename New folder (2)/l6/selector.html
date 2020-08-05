@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>psuedo selectors</title>
+    <style>
+    	header li{
+    		list-style: none;
+        }
+        a:link, a:visited {
+        	text-decoration: none;
+        	background-color: grey;
+        	border:1px solid blue;
+        	color:black;
+        	display: block;
+        	text-align: center;
+        	width:200px;
+        	margin-bottom:1px; 
+        }
+        a:hover, a:active{
+        	background-color: red:
+        	color:pink; 
+        }
+        header li:nth-child(3){
+        	font-size: 25px;
+        }
+        section div:nth-child(odd){
+        	background-color: red;
+        	cursor: pointer;
+        }
+        
+	</style>	
+</head>
+<body>
+	<h1>Psuedo class selector</h1>
+	<header>
+		<ul>
+			<li><a href="/">Home</a></li>
+			<li><a href="https:/github.com"
+				target="_blank">Web Development</a></li>
+			<li><a href="https://www.instagram.com" 
+				target="_blank">INSTA</a></li>	
+		</ul>
+	</header>
+	<section>
+		<div>DIV 1</div>
+		<div>DIV 2</div>
+		<div>DIV3</div>
+		<div>DIV 4</div>
+
+	</section>
+</body>
+</html>
